@@ -20,7 +20,6 @@
         <service
             android:name=".MyService"
             android:label="辅助功能111"
-            android:process="aaa.remote"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
